@@ -1,0 +1,322 @@
+body {
+    background-color: white;
+    background-image: url("https://t4.ftcdn.net/jpg/05/97/49/09/360_F_597490918_dugDbSuqx6YSRmCaYiZJ6pCr37cXK3Rv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.p1 {
+    text-align: center;
+    color: grey;
+    margin-left: 0.5in;
+    font-size: 27px;
+    margin-top: 1in;
+    font-family: "Bookman, URW Bookman L, serif";
+}
+
+.images {
+    background-color: white;
+}
+
+.images:hover {
+    transform: translateY(-5px);
+}
+
+h1 {
+    text-align: center;
+    margin-left:0.5in;
+    font-family: "Bookman, URW Bookman L, serif";
+    font-weight: bolder;
+    font-size: 2.7rem;
+}
+
+.para {
+    text-align: center;
+    color: purple;
+    margin-left: 0.5in;
+    font-size: 40px;
+    font-family: "Bookman, URW Bookman L, serif";
+    font-weight: 800;
+}
+
+.para:hover {
+    color: rgb(174, 49, 70);
+
+}
+
+.p2 {
+    margin-top: 40px;
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+    font-family: "Bookman, URW Bookman L, serif";
+    margin-bottom: 60px;
+}
+
+.btn {
+    padding: 20px 48px;
+    margin-left: 400px;
+    font-size: 15px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(86, 14, 110), rgb(192, 57, 43));
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    font-family: "Bookman, URW Bookman L, serif";
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.btn:active {
+    background: linear-gradient(to right, rgb(255, 0, 43), rgb(139, 175, 20));
+}
+
+.btn1 {
+    transform: translate(150%, -50%);
+    padding: 20px 50px;
+    margin-left: 7.3in;
+    margin-top: 100px;
+    font-size: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, rgb(86, 14, 110), rgb(192, 57, 43));
+    color: white;
+    text-decoration: none;
+    font-family: "Bookman, URW Bookman L, serif";
+}
+
+.btn1:active {
+    background: linear-gradient(to right, rgb(255, 0, 43), rgb(139, 175, 20));
+}
+
+.btn2 {
+    transform: translate(150%, -50%);
+    padding: 20px 48px;
+    margin-left: 160px;
+    margin-top: 100px;
+    font-size: 15px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(86, 14, 110), rgb(192, 57, 43));
+    color: white;
+    text-decoration: none;
+    font-family: "Bookman, URW Bookman L, serif";
+
+}
+
+.btn2:active {
+    background: linear-gradient(to right, rgb(255, 0, 43), rgb(139, 175, 20));
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.about-section {
+    background-color: #fff;
+
+}
+
+h2 {
+    margin-top: 1in;
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: "Bookman, URW Bookman L, serif";
+    color: purple;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 45%;
+    height: auto;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-right: -5in;
+}
+
+.img1 {
+    margin-top: 30px;
+    display: block;
+    margin-left: 220px;
+    max-width: 100%;
+}
+
+.p3 {
+    text-align: center;
+    color: grey;
+    display: flex;
+    margin-left: 9in;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-family: "Bookman, URW Bookman L, serif";
+    
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 70%;
+  
+   border-radius: 10in;
+}
+
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+    font-family: "Bookman, URW Bookman L, serif"; 
+    padding: 10px 10px;
+}
+
+h3 {
+    text-align: center;
+    
+    font-family: "Bookman, URW Bookman L, serif";
+    font-weight: bolder;
+    font-size: 2.2rem;
+    color: purple;
+    font-family: "Bookman, URW Bookman L, serif";
+}
+
+.call {
+    font-size: 24px;
+    color: blue;
+    cursor: pointer;
+    text-align: center;
+    line-height: 24px;
+}
+
+form {
+    font-size: 20px;
+    font-family: "Bookman, URW Bookman L, serif";
+    margin-left: 2.9in;
+}
+
+.measurement-bar {
+    width: 30%;
+    height: 30px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 700px;
+    margin-top: -45px;
+    border: 1px solid black;
+}
+
+.progress {
+    height: 100%;
+    background-color: #941dd4;
+
+}
+
+.code {
+    font-family: Bookman, URW Bookman L, serif;
+    margin-left: 300px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.code:hover {
+    transform: translateY(-5px);
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color:  #ecd9ff;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+
+.container {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    background-color:  #ecd9ff;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1.6%;
+
+
+}
+.logo:hover{
+    color: rgb(234, 21, 234);
+}
+
+.links {
+    list-style: none;
+    margin-left: 500px;
+    padding: 0;
+    margin-bottom: 0.1%;
+    display: flex;
+    font-size: 20px;
+    background-color:  #ecd9ff;
+}
+
+.links li {
+    margin-left: 20px;
+}
+
+.links li a {
+    color: rgb(12, 10, 12);
+    font-weight: bold;
+    text-decoration: none;
+   
+}
+
+.links li a:hover {
+    color: rgb(234, 21, 234);
+}
+.child{
+    width: 20%;
+    height: 3.6in;
+    border: 1px solid black;
+    margin-left: 130px;
+    font-size:20px;
+    padding: 10px 33px;
+    margin-inline-end: -90px;
+    margin-inline-start: 140px;
+background-image: url("https://img.freepik.com/premium-vector/purple-background-pastel-mottled-border-texture-blurred-grunge-design-old-vintage-background_266878-501.jpg")
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+}
+.parent1{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.child1{
+    width: 19%;
+    height: 1n;
+    margin-left: 150px;
+    font-size:20px;
+    padding: 10px 10px;
+}
+.child1 :hover{
+  
+    transform: scale(1.2);
+}
+.class{
+    margin-top: -2in;
+}
