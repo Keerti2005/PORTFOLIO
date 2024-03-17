@@ -242,33 +242,25 @@ form {
 
 .container {
     margin-left: 100px;
-    display: flex;
+   display: inline;
     align-items: center;
-    height: 5vh;
-    background-color:  #ecd9ff;
+    height: 7vh;
+    margin-top: 20px;
 }
-
-.logo {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 1.6%;
-
-
-}
-.logo:hover{
-    color: rgb(234, 21, 234);
+.logo{
+    margin-left: -10in;
+    display: inline;
 }
 
 .links {
     list-style: none;
     margin-left: 500px;
-    padding: 0;
-    margin-bottom: 0.1%;
+    padding-left: 90px;
+    margin-bottom: 0%;
+    margin-top: -10px;
     display: flex;
     font-size: 20px;
-    background-color:  #ecd9ff;
+   
 }
 
 .links li {
