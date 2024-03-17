@@ -278,13 +278,13 @@ form {
     color: rgb(234, 21, 234);
 }
 .child{
-    width: 20%;
-    height: 3.6in;
+    width: 22%;
+    height: 3.8in;
     border: 1px solid black;
     margin-left: 130px;
     font-size:20px;
     padding: 10px 33px;
-    margin-inline-end: -90px;
+    margin-inline-end: -120px;
     margin-inline-start: 140px;
 background-image: url("https://img.freepik.com/premium-vector/purple-background-pastel-mottled-border-texture-blurred-grunge-design-old-vintage-background_266878-501.jpg")
 }
@@ -303,7 +303,7 @@ background-image: url("https://img.freepik.com/premium-vector/purple-background-
     height: 1n;
     margin-left: 150px;
     font-size:20px;
-    padding: 10px 10px;
+    padding: 10px 15px;
 }
 .child1 :hover{
   
